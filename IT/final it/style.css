@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+i {
+	margin-right: 10px;
+}
+/*navbar-css------------*/
+.navbar-logo{
+	padding: 15px;
+	color: #fff;
+}
+.navbar-mainbg{
+	background-color: black;
+	padding: 0px;
+}
+.background{
+    background: black;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.text-big{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    }
+    .text-small{
+        font-size: 18px;
+        text-align: center;
+        font-family: 'IM Fell English SC', serif;
+    }
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: auto;
+}
+.FirstHalf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    text-align: center;
+	font-size: large;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.secondHalf{
+	height: 90vh;
+}
+.mySlides {display:none;}
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+}
+.w3-btn, .w3-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+button, [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, select, textarea, optgroup {
+    font: inherit;
+    margin: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.w3-content {
+    max-width: 980px;
+}
+.w3-content, .w3-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.w3-tooltip, .w3-display-container {
+    position: relative;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+#navbarSupportedContent{
+	overflow: hidden;
+	position: relative;
+}
+.w3-button:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+}
+.w3-btn, .w3-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+button, [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, select, textarea, optgroup {
+    font: inherit;
+    margin: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+   
+    text-rendering: auto;
+   
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+   
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+#navbarSupportedContent ul{
+	padding: 0px;
+	margin: 0px;
+}
+#navbarSupportedContent ul li a i{
+	margin-right: 10px;
+}
+#navbarSupportedContent li {
+	list-style-type: none;
+	float: left;
+}
+#navbarSupportedContent ul li a{
+	color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    padding: 20px 20px;
+    transition-duration:0.6s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    position: relative;
+}
+#navbarSupportedContent>ul>li.active>a{
+	color: black;
+	background-color: transparent;
+	transition: all 0.7s;
+}
+#navbarSupportedContent a:not(:only-child):after {
+	content: "\f105";
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 14px;
+	font-family: "Font Awesome 5 Free";
+	display: inline-block;
+	padding-right: 3px;
+	vertical-align: middle;
+	font-weight: 900;
+	transition: 0.5s;
+}
+#navbarSupportedContent .active>a:not(:only-child):after {
+	transform: rotate(90deg);
+}
+.hori-selector{
+	display:inline-block;
+	position:absolute;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	transition-duration:0.6s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	background-color: #fff;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin-top: 10px;
+}
+.hori-selector .right,
+.hori-selector .left{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: #fff;
+	bottom: 10px;
+}
+.hori-selector .right{
+	right: -25px;
+}
+.hori-selector .left{
+	left: -25px;
+}
+.hori-selector .right:before,
+.hori-selector .left:before{
+	content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.hori-selector .right:before{
+	bottom: 0;
+    right: -25px;
+}
+.hori-selector .left:before{
+	bottom: 0;
+    left: -25px;
+}
+
+
+@media(min-width: 992px){
+	.navbar-expand-custom {
+	    -ms-flex-flow: row nowrap;
+	    flex-flow: row nowrap;
+	    -ms-flex-pack: start;
+	    justify-content: flex-start;
+	}
+	.navbar-expand-custom .navbar-nav {
+	    -ms-flex-direction: row;
+	    flex-direction: row;
+	}
+	.navbar-expand-custom .navbar-toggler {
+	    display: none;
+	}
+	.navbar-expand-custom .navbar-collapse {
+	    display: -ms-flexbox!important;
+	    display: flex!important;
+	    -ms-flex-preferred-size: auto;
+	    flex-basis: auto;
+	}
+}
+
+
+@media (max-width: 991px){
+	#navbarSupportedContent ul li a{
+		padding: 12px 30px;
+	}
+	.hori-selector{
+		margin-top: 0px;
+		margin-left: 10px;
+		border-radius: 0;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+	.hori-selector .left,
+	.hori-selector .right{
+		right: 10px;
+	}
+	.hori-selector .left{
+		top: -25px;
+		left: auto;
+	}
+	.hori-selector .right{
+		bottom: -25px;
+	}
+	.hori-selector .left:before{
+		left: -25px;
+		top: -25px;
+	}
+	.hori-selector .right:before{
+		bottom: -25px;
+		left: -25px;
+	}
+}
